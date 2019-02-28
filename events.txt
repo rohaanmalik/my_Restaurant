@@ -1,0 +1,19 @@
+Restaurant | American | 1 | 2 | 4 | 5
+online | (1, 2, 3, 4, 5, 6)
+order | 3 | 4 | burger(+cheese), pizza()
+prepared | 3 | 4 | burger(+cheese), pizza()
+deliver | 3 | 4 | accepted{burger(+cheese)}, accepted{pizza()}
+bill | 3
+order | 1 | 5 | burger(), pizza(-tomato)
+prepared | 1 | 5 | burger(), pizza(-tomato)
+deliver | 1 | 5 | accepted{burger()}, returned{pizza(-tomato)}
+bill | 1
+order | 2 | 6 | hotdog(), pizza()
+prepared | 2 | 6 | hotdog(), pizza()
+deliver | 2 | 6 | accepted{hotdog()}, accepted{pizza()}
+bill | 2
+order | 4 | 4 | burger(), pizza(), hotdog()
+prepared | 4 | 4 | burger(), pizza(), hotdog()
+deliver | 4 | 4 | accepted{burger()}, accepted{pizza()}, accepted{hotdog()}
+bill | 4
+receive | 1 | cheese(20)

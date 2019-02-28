@@ -1,0 +1,3 @@
+burger | $10.00 | lettuce(2) | cucumber(2) | beef(1) | bun(1) |
+pizza | $10.00 | flour(2) | tomato(1) | cheese(1) |
+hotdog | $10.00 | bun(1) | sausage(1) | onion(1) |
